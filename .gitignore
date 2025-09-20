@@ -1,0 +1,52 @@
+# Виртуальное окружение
+shop_env/
+venv/
+.env/
+
+# База данных
+*.sqlite3
+*.sqlite3-journal
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.coverage
+.coverage.*
+.cache
+htmlcov/
+*.cover
+*.py,cover
+.pytest_cache
+pip-log.txt
+pip-delete-this-directory.txt
+
+# IDE / Редакторы
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Логи
+*.log
+logs/
+
+# Статика и медиа (опционально — можно не игнорировать, если хочешь хранить в репо)
+static/CACHE/
+media/
+
+# Системные файлы Windows
+._*
+*~
+*.bak
+*.tmp
+
+# Миграции — НЕ ИГНОРИРУЙ! Только кэш внутри
+*/migrations/__pycache__/
+
+# Локальные настройки
+local_settings.py
